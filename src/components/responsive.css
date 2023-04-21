@@ -1,0 +1,122 @@
+
+@media (min-width: 320px) and (max-width: 767px){
+#header .row{
+    flex-direction: column-reverse;
+}
+.mobile-banner .row{
+    flex-direction: column-reverse;
+}
+.mobile-home-banner .row{
+    flex-direction: column-reverse;
+}
+.web-banner .row{
+    flex-direction: column-reverse;
+}
+.blockchain-banner .row{
+    flex-direction: column-reverse;
+}
+.ai-banner .row{
+    flex-direction: column-reverse;
+}
+.web-banner-right {
+    padding: 30px 0px;
+}
+.web-design-banner .row{
+    flex-direction: column-reverse;
+}
+.about-banner .row{
+    flex-direction: column-reverse;
+}
+.web-banner-right img {
+    padding: 0px ;
+    height: auto;
+}
+.mobile-banner-left {padding: 0;}
+.top-bar{
+    display: block;
+}
+#open{
+    display: none;
+}
+.left-step{
+    padding: 10px 0px;
+}
+.left-step h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.mobile-banner-right img {
+    padding: 20px 0px;
+    /* width: 100%; */
+    height: 250px;
+    position: relative;
+}
+.mobile-text {
+    color: #fff!important;
+    line-height: 38px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.mobile-banner-left p {
+    color: #fff!important;
+    font-size: 14px;
+}
+.top-text-banner {font-size: 25px;}
+/* #header::before {
+    height: 450px;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+} */
+#header h1{
+    font-size: 25px;
+}
+#header h2 {
+    font-size: 14px;
+}
+.why-us{
+    padding: 30px 0px;
+}
+.why-us h3 {
+    font-size: 23px !important;
+    letter-spacing: -1px;
+    line-height: 20px;
+}
+.why-us-h3 {
+    font-size: 23px !important;
+}
+.section-heads {
+    max-width: 90%;
+    margin: 30px auto;
+}
+.srv-bx {
+    padding: 10px 10px;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .why-us{
+        padding: 30px 0px;
+    }
+    .img-fluid{
+        max-width: 75%;
+        height: 350px;
+        margin: 80px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1334px){
+.why-us{
+    padding: 50px 0px;}
+    #header::before {
+        height: 460px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1920px) {
+    .why-us{
+        padding: 30px 0px;
+    }
+}
+@media (min-width:1924px) and (max-width:2620px) {
+    .why-us{
+        padding: 30px 0px;
+    }
+}
