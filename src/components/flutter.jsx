@@ -1,6 +1,29 @@
 import React from 'react';
+import Accordion from './Accordion';
 const Flutter =()=>
 {
+    const accordionData = [
+        {
+          title: 'What is Flutter development?',
+          content: `UI/UX design ensures a better experience for its users, leading to customer satisfaction and happiness. Both UI/UX make it easy for users to easily interact, access and use the application and system screens. Furthermore, with the advent of increasing digital tools and automated systems, UI/UX designing ensures that these tools and applications are not only user-friendly but also effective in terms of their use and purpose. `
+        },
+        {
+            title: 'Why will Flutter change mobile development for the better?',
+            content: `It is one of the technologies that have pushed forward cross-platform app development. Cross-platform solutions are becoming more popular thanks to their many fans and strong community. `
+          },
+          {
+            title: 'who is a Flutter Developer?',
+            content: `A Flutter developer builds a cross-platform app using one codebase available on Android and iOS using Flutter.`
+          },
+        {
+          title: 'How does Flutter differ for app development?',
+          content: `With Flutter, developers can create cross-platform applications that run on iOS and Android devices. It can be used to validate your idea or launch new features quickly. UI coding and hot reloading are made easier with the SDK's ready-made widgets. These two features enable developers to code faster with Flutter.`
+        },
+        {
+            title: 'Can Flutter be used to develop MVPs?',
+            content: `The answer is yes. When it comes to MVP development, Flutter is very cost-effective. With Kotlin and Swift, you can build iOS and Android apps faster than using native Kotlin and Swift. Flutter can save you 40-50%.`
+          },
+      ];
   return (
     <>
     <div className='flutter-banner'>
@@ -44,6 +67,24 @@ const Flutter =()=>
             </div>
         </div>
     </section>
+    <div className='faq'>
+      <div className='container'>
+        <div className='row'>
+        <div className="col-md-12">
+          <h2 className='why-us-h3'>Frequently Asked Questions</h2>
+        </div>
+        </div>
+        <div className='row'>
+          <div className='col-lg-12'>
+          <div className="accordion">
+            {accordionData.map(({ title, content }) => (
+              <Accordion title={title} content={content} />
+            ))}
+          </div>    
+          </div>
+        </div>
+      </div>
+    </div>
 </>
   )
 }

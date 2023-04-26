@@ -14,7 +14,7 @@ export default class Home extends Component {
             <div className="col-sm-6 col-md-6 col-lg-6">
                 <div className='mobile-banner-left'>
                 <h1 className='top-text-banner'>Grow Your Business With <strong className='brand-name'> our team</strong></h1>
-                    <h2 className='my-3'>We are team of developers.</h2>
+                    <h2 className='my-3'>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</h2>
                     <div className='mt-3'>
                         <NavLink to="/service" className='btn-get-started'>Get Started</NavLink>
                     </div>
@@ -117,7 +117,7 @@ export default class Home extends Component {
 			</span>
             <h4>Quantum Computing</h4>
             <p>Our Quantum Computing services in cloud10 are highly effective.Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers. </p>
-            <NavLink to="/webdesign">Read More</NavLink>
+            <NavLink to="/quantum">Read More</NavLink>
           </div>
       </div>  
       <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">

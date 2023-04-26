@@ -15,6 +15,7 @@ import Contact from './components/contactus';
 import Flutter from './components/flutter';
 import Iot from './components/iot';
 import Cardano from './components/cardano';
+import Quantum from './components/quantum';
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,7 @@ function App() {
         <Route path="/flutter" element={<Flutter/>}/>
         <Route path="/iot" element={<Iot/>}/>
         <Route path="/cardano" element={<Cardano/>}/>
+        <Route path="/quantum" element={<Quantum/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

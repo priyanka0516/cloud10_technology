@@ -10,7 +10,7 @@ const Mobileapp =()=>
             <div className="col-sm-12 col-md-12 col-lg-7">
                 <div className='mobile-banner-left'>
                     <h3 className='mobile-text'>Leading Mobile application Developemnt Company for Products</h3>
-                    <p>Get mobile apps from the best development company.</p>
+                    <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-5">

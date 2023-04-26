@@ -1,7 +1,30 @@
 import React,{useState} from 'react';
+import Accordion from './Accordion';
 const Iot =()=>
 {
-
+  const accordionData = [
+    {
+      title: 'What Is IOT?',
+      content: `The term IoT, or Internet of Things, refers to the collective network of connected devices and the technology that facilitates communication between devices and the cloud, as well as between the devices themselves.`
+    },
+    {
+      title: 'How does IoT work?',
+      content: `A typical IoT system works through the real-time collection and exchange of data. An IoT system has three components:
+      Smart devices, IoT application , A graphical user interface.`
+    },
+    {
+      title: 'Why is IoT used?',
+      content: `IoT applications are used to address many real-world issues – traffic congestion, city services, economic development, citizen engagement, and public safety and security. Smart cities often embed IoT sensors into the physical infrastructure, such as streetlights, water meters and traffic signals.`
+    },
+    {
+      title: 'What is another name for IoT?',
+      content: `IOT also known as IIoT, industrial IoT devices acquire and analyze data from connected equipment, operational technology (OT), locations, and people.`
+    },
+    {
+      title: 'What is the first IoT device?',
+      content: `Even though coca cola the vending machine was the first IoT device, before the invention of IoT and WWW, it cannot be officially considered as such. However, officially or unofficially, the toaster is regarded as the first IoT device after Tim Berners-Lee invented WWW (world wide web).`
+    }
+  ];
   return (
     <>
     <section className='iot-banner'>
@@ -64,7 +87,7 @@ const Iot =()=>
       <div className='container'>
         <div className='row'></div>
         <div className="col-md-12">
-          <h2 className='why-us-h3'>IOT Platform</h2>
+          <h2 className='why-us-h3'>Platforms Of IOT</h2>
         </div>
         <div className='row mt-5 wow fadeInUp '>
           <div className='col-md-4'>
@@ -124,33 +147,24 @@ const Iot =()=>
         </div>
       </div>
     </section>
-    {/* <section id="iot_faq">
-    <div className='container-fluid'>
+    <div className='faq'>
+      <div className='container'>
         <div className='row'>
         <div className="col-md-12">
-          <h2 className='why-us-h3'>Why Choose Us</h2>
+          <h2 className='why-us-h3'>Frequently Asked Questions</h2>
         </div>
         </div>
         <div className='row'>
-            <div className='col-lg-12'>
-            <div className="accordian">
-        <div className="accordian-header" onClick={handleOpen}>
-          <div>Accordion Header</div>
-          <div className="sign">{show ? '-' : '+'}</div>
-        </div>
-        {show && (
-          <div className="accordian-body">
-            Lorem Ipsum is simply dummy text of the printing and type setting
-            industry. Lorem Ipsum has been the industry's ever since the 1500s,
-            when an unknown printer took a galley of type standard dummy text
-            and scrambled it to make a type specimen book.
+          <div className='col-lg-12'>
+          <div className="accordion">
+            {accordionData.map(({ title, content }) => (
+              <Accordion title={title} content={content} />
+            ))}
+          </div>    
           </div>
-        )}
-      </div>
-            </div>
         </div>
+      </div>
     </div>
-    </section> */}
 </>
   )
 }

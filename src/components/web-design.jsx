@@ -9,7 +9,7 @@ const Webdesign =()=>
             <div className="col-sm-12 col-md-12 col-lg-8">
                 <div className='mobile-banner-left'>
                     <h3 className='mobile-text'>Attractive UI/UX Design <br/> Services</h3>
-                    <p>We build UI/UX Design that works and solves real problems with delightful user experience. An easy to use and clearly define problem-solving designs are what creates the base for your product success. </p>
+                    <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-4">

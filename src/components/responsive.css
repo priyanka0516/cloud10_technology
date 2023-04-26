@@ -43,6 +43,9 @@
 .service-banner .row{
     flex-direction: column-reverse;
 }
+.quantum-banner .row{
+    flex-direction: column-reverse;
+}
 .web-banner-right img {
     padding: 0px ;
     height: auto;

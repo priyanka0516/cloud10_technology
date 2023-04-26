@@ -101,9 +101,11 @@ body{
 }
 .pull-left {
     float: left !important;
+    font-weight: 600;
 }
 .pull-right {
     float: right !important;
+    font-weight: 600;
 }
 /*======= Home =======*/
 /* header */
@@ -134,8 +136,9 @@ body{
  }
   .my-3{
     color:#fff;
-    font-size: 18px;
+    font-size: 14px;
     z-index: 999;
+    line-height: 25px;
     text-align: left;
     animation: fadeContent 1s ease-in-out forwards;
     animation-delay: 1s;
@@ -309,6 +312,16 @@ body{
     position: relative;
     border-radius: 10px;
 }
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateX(0);
+    }
+ }
 .leverage_left{
     position: absolute;
     left: 0;
@@ -510,7 +523,8 @@ body{
 }
 .mobile-banner-left p{
     color: #fff!important;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 25px;
 }
 .mobile-banner-right{
     position: relative;
@@ -1299,7 +1313,7 @@ h3.heading {
 #iot-section p{
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 6; /* number of lines to show */
+    -webkit-line-clamp: 5; /* number of lines to show */
             line-clamp: 6; 
     -webkit-box-orient: vertical;
 }
@@ -1349,4 +1363,28 @@ h3.heading {
   /* cardano */
   .cardano-banner{
     background-color: #191919;
+  }
+  /* accordion */
+  .accordion-item{
+    border: none;
+  }
+  .faq{
+    padding: 20px 0px;
+  }
+  .accordion-title{
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .accordion-content{
+    padding: 10px;
+    color: #6c6c6c;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .quantum-banner{
+    background-color: #132d4d;
   }

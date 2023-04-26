@@ -11,7 +11,7 @@ const Artificial =()=>
             <div className="col-sm-12 col-md-12 col-lg-7">
                 <div className='mobile-banner-left'>
                     <h3 className='mobile-text'>Artificial Inteligence Services</h3>
-                    <p>Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. so let's work smartly. </p>
+                    <p>We know that Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. so let's work smartly. </p>
                     {/* <div className='mt-3'>
                         <NavLink to="/service" className='btn-get-started'>Get Started</NavLink>
                     </div> */}

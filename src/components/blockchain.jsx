@@ -31,7 +31,7 @@ const Blockchain =()=>
         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
           <div className='section-heads'>
             <h3 className='why-us-h3'>What Blockchain do</h3>
-            <p className='custom-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className='custom-paragraph'>A blockchain is “a distributed database that maintains a continuously growing list of ordered records, called blocks.” These blocks “are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. A blockchain is a decentralized, distributed and public digital ledger that is used to record transactions across many computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the consensus of the network.</p>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@ const Blockchain =()=>
                 <div className='benefits-blockchain-duplex'>
                     <span>05</span>
                     <div className="benef_cont"><h3>Security</h3>
-                    <p>We help you create reliable, trusted, and sustainable solutions for your business growth. Our blockchain development technology experts are ready to build your cross border payment mechanism, identity protection, and more</p>
+                    <p>Supply chain fraud rates remain at record highs. As per a report released by the UN Global Compact, total fraud losses cost US $2.6 trillion per year. And, what about the unreported fraud cases. With blockchain, you can ensure the secure transfer of goods. Kudos to its features like ‘encryption’ and ‘single source of truth’. Another feature that adds to the security is the hash function. With the hash function, it is impossible to tamper with the data. It acts like a digital fingerprint, where every hash is unique.</p>
                     </div>  
                 </div>
             </div>
