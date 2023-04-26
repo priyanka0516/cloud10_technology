@@ -1,12 +1,27 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './style.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
-const Header =()=>
-{
+export default class Header extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      navExpanded: false
+    };
+  }
+
+  setNavExpanded = (expanded) => {
+    this.setState({ navExpanded: expanded });
+  }
+
+  setNavClose = () => {
+    this.setState({ navExpanded: false });
+  }
+  
+  render() {
   return (
         <>
         <div className="top-bar" id="top">
@@ -31,12 +46,12 @@ const Header =()=>
               </div>
             </div>
         </div>
-        <Navbar expand="lg" sticky="top" >
+        <Navbar bg="white"sticky="top"  variant="dark" expand="lg" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
         <Container>
         <Navbar.Brand><img src={require('./../assets/logo.png')} alt="logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto" onClick={this.setNavClose}>
             <Link to="/"  id="navbar-head" className='active'>Home</Link>
             <Link to="about" id="navbar-head">About</Link>
             <Link to="service"id="navbar-head">Services</Link>
@@ -47,6 +62,7 @@ const Header =()=>
       </Container>
     </Navbar>
     </>
-  )
+    );
+  }
 }
-export default  Header;
+

@@ -1,4 +1,8 @@
 
+@media (min-width: 0px) and (max-width: 325px){
+    #iot-section p {
+    width: 200px;}
+}
 @media (min-width: 320px) and (max-width: 767px){
 #header .row{
     flex-direction: column-reverse;
@@ -18,8 +22,14 @@
 .ai-banner .row{
     flex-direction: column-reverse;
 }
+.flutter-banner .row{
+    flex-direction: column-reverse;
+}
 .web-banner-right {
     padding: 30px 0px;
+}
+.iot-banner .row{
+    flex-direction: column-reverse;
 }
 .web-design-banner .row{
     flex-direction: column-reverse;
@@ -27,11 +37,17 @@
 .about-banner .row{
     flex-direction: column-reverse;
 }
+.cardano-banner .row{
+    flex-direction: column-reverse;
+}
+.service-banner .row{
+    flex-direction: column-reverse;
+}
 .web-banner-right img {
     padding: 0px ;
     height: auto;
 }
-.mobile-banner-left {padding: 0;}
+.mobile-banner-left {padding: 15px;}
 .top-bar{
     display: block;
 }
@@ -46,9 +62,9 @@
     font-weight: 600;
 }
 .mobile-banner-right img {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     /* width: 100%; */
-    height: 250px;
+    height: 280px;
     position: relative;
 }
 .mobile-text {
@@ -58,10 +74,41 @@
     font-weight: 700;
 }
 .mobile-banner-left p {
+    padding: 20px 0px;
     color: #fff!important;
-    font-size: 14px;
+    font-size: 13px;
 }
-.top-text-banner {font-size: 25px;}
+footer .fcopy p {
+    text-align: left;
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+}
+.footer .footer-item .footer-sosmed {
+    margin: 5px auto 5px auto;
+    width: 100%;
+   
+    text-align: center;
+}
+
+.top-text-banner {font-size: 28px;}
+.my-3 {
+    font-size: 13px;
+}
+.mt-3 {
+    margin-top: 0rem!important;
+}
+.btn-get-started {
+    padding: 6px 18px;
+}
+.smooth-apps {
+    flex-direction: column !important;
+    padding: 20px;
+}
+.smooth-apps h2{
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
 /* #header::before {
     height: 450px;
     border-radius: 0 0 50% 50%/0 0 100% 100%;
@@ -72,9 +119,9 @@
 #header h2 {
     font-size: 14px;
 }
-.why-us{
+/* .why-us{
     padding: 30px 0px;
-}
+} */
 .why-us h3 {
     font-size: 23px !important;
     letter-spacing: -1px;
@@ -92,31 +139,34 @@
 }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-    .why-us{
+    /* .why-us{
         padding: 30px 0px;
-    }
+    } */
     .img-fluid{
         max-width: 75%;
         height: 350px;
         margin: 80px;
     }
+    .why-choose-column {display: block;}
+    #tech_logo {
+        margin-left: 13px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1334px){
-.why-us{
-    padding: 50px 0px;}
+/* .why-us{
+    padding: 50px 0px;} */
     #header::before {
         height: 460px;
     }
 }
 
 @media (min-width:1400px) and (max-width:1920px) {
-    .why-us{
+    /* .why-us{
         padding: 30px 0px;
-    }
+    } */
 }
 @media (min-width:1924px) and (max-width:2620px) {
-    .why-us{
+    /* .why-us{
         padding: 30px 0px;
-    }
+    } */
 }

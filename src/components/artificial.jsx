@@ -80,13 +80,13 @@ const Artificial =()=>
                 </div>
                 <div className='benefits-duplex'>
                     <div id='circle2'>
-                    <div className="text">04</div>
+                    <div className="text">02</div>
                     </div>
                     <div className="benefit-ai"><h3>Unbiased-Decision</h3></div>
                 </div>
                 <div className='benefits-duplex'>
                     <div id='circle2'>
-                    <div className="text">07</div>
+                    <div className="text">03</div>
                     </div>
                     <div className="benefit-ai"><h3>Healthcare-Applications</h3></div>
                 </div>
@@ -95,7 +95,7 @@ const Artificial =()=>
             <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6'>
             <div className='benefits-duplex'>
                     <div id='circle2'>
-                    <div className="text">02</div>
+                    <div className="text">04</div>
                     </div>
                     <div className="benefit-ai"><h3>No Risk</h3></div>
                 </div>
@@ -107,7 +107,7 @@ const Artificial =()=>
                 </div>
                 <div className='benefits-duplex'>
                     <div id='circle2'>
-                    <div className="text">08</div>
+                    <div className="text">06</div>
                     </div>
                     <div className="benefit-ai"><h3>Quicker Decision Making</h3></div>
                 </div>
@@ -115,13 +115,13 @@ const Artificial =()=>
             <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6'>
             <div className='benefits-duplex'>
                     <div id='circle2'>
-                    <div className="text">03</div>
+                    <div className="text">07</div>
                     </div>
                     <div className="benefit-ai"><h3>Managing Task</h3></div>
                 </div>
                 <div className='benefits-duplex'>
                     <div id='circle2'>
-                    <div className="text">06</div>
+                    <div className="text">08</div>
                     </div>
                     <div className="benefit-ai"><h3>Save Time</h3></div>
                 </div>

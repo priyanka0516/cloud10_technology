@@ -5,34 +5,38 @@ const Contact = () =>
 {
   return (
     <>
-        <div className='contact-banner'>
+      <div className='contact-banner'>
             <div className='contact-inner-banner'>
                 <div className='container'>
-            <   div className='mobile-banner-left'>
-                        <h3 className='mobile-text'>Let's talk to bring<br/> Idea Into Reality</h3>
+            <div className='mobile-banner-left'>
+                        <h3 className='contact-mobile-text'>Let's talk to bring<br/> Idea Into Reality</h3>
                         <p>We are just helping startups and Enterprises in Embracing<br/> Technologies That bring the highest values.</p>
                     </div>
                 </div>
             </div>
         </div>
+        {/* <div className="banner1">
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-md-6'>
 
-        <div class="banner1">
-	    <div class="wthree_banner1_info">
-				<h3><span>Contact Us</span></h3>
-		</div>
-    </div>
-        <div class="team">
-		<div class="container">
+                    </div>
+                    <div className='col-md-6'>
+                       <h3>We are here to help you<br/>anytime just call or email </h3> 
+                    </div>
+                </div>
+            </div> 
+        </div> */}
+        <div className="team">
+		<div className="container">
             <div className='row'>
             <div className='col-md-6'>
-
             </div>
-            <div className='col-md-6'>
-                
+            <div className='col-md-6'>            
             </div>
 			</div>
 		</div>
-	</div>
+	    </div>
         <section className='contact'>
         <div class="leverage_left"><img src={require('./../assets/leverage_left.png')}alt="Mobile-App-Development-Services"/></div>
         <div className='container'>
@@ -44,12 +48,14 @@ const Contact = () =>
                             <li>
                             <span><img src={require('./../assets/mail-contact.png')}alt="mail"/></span>
                                 <div>
+                                    <h3 className='address-space'>Mail us Here</h3>
                                     <Link id="contact-adrs" to="mailTo:info@hashstudioz.com">info@.com</Link>
                                 </div>
                             </li>
                             <li>
                                 <span><img src={require('./../assets/phone-call-contact.png')}alt="Mphone"/></span>
                                 <div>
+                                    <h3 className='address-space'>Call us Here</h3>
                                     <Link to="tel:+91-9500069296" id="contact-adrs"> +91-6371499414</Link><br/>
                                 </div>
                             </li>
