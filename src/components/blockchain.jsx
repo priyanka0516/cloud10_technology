@@ -1,7 +1,29 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import Accordion from './Accordion';
 const Blockchain =()=>
 {
+  const accordionData = [
+    {
+      title: 'What do you mean by “Blockchain”?',
+      content: `A Blockchain can be summed up as a continuously creating ledger(file) that keeps an immutable record of the multitude of trades that have taken put, in a protected, ordered, and super durable way. It tends to be used for the solid trade of money, property, contracts, and so on without requiring an outsider middle person like a bank or government.`
+    },
+    {
+      title: 'What are the basics of blockchain?',
+      content: `Blockchain overview. Blockchain defined: Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. An asset can be tangible (a house, car, cash, land) or intangible (intellectual property, patents, copyrights, branding).`
+    },
+    {
+      title: 'What are 2 key concepts of blockchain?',
+      content: `For those looking to evaluate the value of blockchain technology to their business, there are four key concepts to understand: connectivity, decentralization, immutability and automation. By understanding these concepts, businesses can come to an informed understanding of the power blockchain technology presents.`
+    },
+    {
+      title: 'How much data can be stored on blockchain?',
+      content: `This means that they have to download the whole 250 GB of blockchain data containing the block headers and transactions. More so, the current bitcoin blockchain size limit is 1 MB. However, some of the space within this limit is not usable. So, you will have to work with the bitcoin blockchain size limit just as it is.`
+    },
+    {
+      title: 'Where blockchain is stored?',
+      content: `The blockchain is stored on a network of computers (nodes) that participate in the validation and verification of transactions. Each node maintains a copy of the entire blockchain, which is continually updated as new transactions are added to the network.`
+    }
+  ];
   return (
     <>
        <div className='blockchain-banner'>
@@ -9,7 +31,7 @@ const Blockchain =()=>
             <div className='row'>
             <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
-                    <h3 className='mobile-text'>BlockChain Development <br/>Services</h3>
+                    <h3 className='mobile-text'>A Leading BlockChain<br/> Development  Company</h3>
                     <p>With our proven expertise in blockchain technologies, we build solutions that are highly secure, transparent, yet scalable.
                     </p>
                     {/* <div className='mt-3'>
@@ -75,47 +97,64 @@ const Blockchain =()=>
             <div className='benefits-blockchain-duplex'>
                     <span>01</span>
                     <div className="benef_cont"><h3>Efficiency</h3>
-                    <p>We help you create reliable, trusted, and sustainable solutions for your business growth. Our blockchain development technology experts are ready to build your cross border payment mechanism, identity protection, and more</p>
+                    <p>The efficiency of using blockchain technology depends on various factors such as the type of blockchain, the purpose of its use, and the specific application being built.</p>
+                    </div>  
+                </div>
+                <div className='benefits-blockchain-duplex'>
+                    <span>02</span>
+                    <div className="benef_cont"><h3>Transparency</h3>
+                    <p>One of the key features of blockchain technology is transparency. When transactions are recorded on a blockchain, they are visible to all participants in the network, and each participant can see every transaction that has taken place. </p>
                     </div>  
                 </div>
                 <div className='benefits-blockchain-duplex'>
                     <span>03</span>
-                    <div className="benef_cont"><h3>Transparency</h3>
-                    <p>We help you create reliable, trusted, and sustainable solutions for your business growth. Our blockchain development technology experts are ready to build your cross border payment mechanism, identity protection, and more</p>
-                    </div>  
-                </div>
-                <div className='benefits-blockchain-duplex'>
-                    <span>05</span>
                     <div className="benef_cont"><h3>Security</h3>
-                    <p>Supply chain fraud rates remain at record highs. As per a report released by the UN Global Compact, total fraud losses cost US $2.6 trillion per year. And, what about the unreported fraud cases. With blockchain, you can ensure the secure transfer of goods. Kudos to its features like ‘encryption’ and ‘single source of truth’. Another feature that adds to the security is the hash function. With the hash function, it is impossible to tamper with the data. It acts like a digital fingerprint, where every hash is unique.</p>
+                    <p>Security is one of the most important aspects of blockchain technology. Since blockchain is a distributed and decentralized system, it is essential to ensure that the network is secure and that data stored on the blockchain cannot be compromised.</p>
                     </div>  
                 </div>
             </div>
             <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
             <div className='benefits-blockchain-duplex'>
-                    <span>02</span>
+                    <span>04</span>
                     <div className="benef_cont"><h3>Network Distribution</h3>
-                    <p>We help you create reliable, trusted, and sustainable solutions for your business growth. Our blockchain development technology experts are ready to build your cross border payment mechanism, identity protection, and more</p>
+                    <p>Network distribution is a crucial aspect of blockchain technology that enables it to operate as a decentralized and trustless system. When a blockchain network is distributed, it means that there is no central authority controlling the network, and all participants in the network have an equal say in the decision-making process.</p>
                     </div>  
                 </div>
                 <div className='benefits-blockchain-duplex'>
-                    <span>04</span>
+                    <span>05</span>
                     <div className="benef_cont"><h3>Availabilty</h3>
-                    <p>We help you create reliable, trusted, and sustainable solutions for your business growth. Our blockchain development technology experts are ready to build your cross border payment mechanism, identity protection, and more</p>
+                    <p>Availability is a critical aspect of blockchain technology that ensures that the network is always accessible and operational.</p>
                     </div>  
                 </div>
                 <div className='benefits-blockchain-duplex'>
                     <span>06</span>
                     <div className="benef_cont"><h3>Automation</h3>
-                    <p>We help you create reliable, trusted, and sustainable solutions for your business growth. Our blockchain development technology experts are ready to build your cross border payment mechanism, identity protection, and more</p>
+                    <p>Automation is a crucial aspect of blockchain technology that can simplify and streamline many processes, making them faster, more accurate, and more efficient.</p>
                     </div>  
                 </div>
             </div>
         </div>
     </div>
   </section>
-    </>
+  <div className='faq'>
+      <div className='container'>
+        <div className='row'>
+        <div className="col-md-12">
+          <h2 className='why-us-h3'>Frequently Asked Questions</h2>
+        </div>
+        </div>
+        <div className='row'>
+          <div className='col-lg-12'>
+          <div className="accordion">
+            {accordionData.map(({ title, content }) => (
+              <Accordion title={title} content={content} />
+            ))}
+          </div>    
+          </div>
+        </div>
+      </div>
+    </div>
+  </>
   )
 }
- 
 export default  Blockchain;

@@ -8,12 +8,7 @@ const Cardano = () => {
     },
     {
       title: 'What is Cardano used for?',
-      content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`
+      content: `The Cardano blockchain can be used to build smart contracts and, in turn, create decentralised applications and protocols. In addition, the ability to send and receive funds instantly for minimal fees has many applications in the world of business and finance.`
     },
     {
       title: 'How Does Cardano Work?',

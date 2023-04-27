@@ -1,5 +1,28 @@
 import React from 'react';
+import Accordion from './Accordion';
 const Artificial = () => {
+    const accordionData = [
+        {
+          title: 'What is artificial intelligence (AI)?',
+          content: `Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.`
+        },
+        {
+          title: 'How is AI used today?',
+          content: `Voice assistants, image recognition for face unlock in cellphones, and ML-based financial fraud detection are examples of AI software currently being used in everyday life. Typically, just downloading AI software from an online store and having no other devices is required.`
+        },
+        {
+          title: 'What are the benefits of AI?',
+          content: `By automating certain tasks and providing real-time insights, AI can help organizations make faster and more informed decisions. This can be particularly valuable in high-stakes environments, where decisions must be made quickly and accurately to prevent costly errors or save lives.`
+        },
+        {
+          title: 'What is the scope of AI?',
+          content: `The scope of Artificial Intelligence is limited to domestic and commercial purposes as the medical and aviation sectors are also using AI to improve their services. If AI is outperforming human efforts, then opting for AI automation will reduce costs in the long run for a business.`
+        },
+        {
+          title: 'Why is AI technology important?',
+          content: `Thanks to machine learning and deep learning, AI applications can learn from data and results in near real time, analyzing new information from many sources and adapting accordingly, with a level of accuracy that's invaluable to business. (product recommendations are a prime example.)`
+        }
+      ];
   return (
     <>
     <div className='ai-banner'>
@@ -121,6 +144,24 @@ const Artificial = () => {
         </div>
     </div>
     </section>
+    <div className='faq'>
+      <div className='container'>
+        <div className='row'>
+        <div className="col-md-12">
+          <h2 className='why-us-h3'>Frequently Asked Questions</h2>
+        </div>
+        </div>
+        <div className='row'>
+          <div className='col-lg-12'>
+          <div className="accordion">
+            {accordionData.map(({ title, content }) => (
+              <Accordion title={title} content={content} />
+            ))}
+          </div>    
+          </div>
+        </div>
+      </div>
+    </div>
     </>
   )
 } 

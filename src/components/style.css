@@ -622,7 +622,7 @@ body{
     margin: 0;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-line-clamp: 2; /* number of lines to show */
             line-clamp: 3; 
     -webkit-box-orient: vertical;
 }
@@ -645,8 +645,7 @@ body{
 .img{
     position: relative;
     width: 500px;
-    height: 500px; 
-   
+    height: 500px;   
     background: radial-gradient(520px, #484848, transparent 50%);
 }
 .email-icon{
@@ -672,26 +671,6 @@ body{
     height: 50px;
 
 }
-.lang-icon img:nth-child(1){
-    top:0%;
-    left:42%;
-}
-.lang-icon img:nth-child(2){
-    top:25%;
-    left:0%;
-}
-.lang-icon img:nth-child(3){
-    top:70%;
-    left:70%;
-}
-.lang-icon img:nth-child(4)
-{top:25%;
-    left:0%;
-}
-.lang-icon img:nth-child(5){
-    top:70%;
-    left:10%;
-}
 .clients-area{
     overflow: hidden;
     margin-top: 3.5rem;
@@ -702,8 +681,6 @@ body{
     font-weight: 700;
     line-height: 1.5;
 }
-
-
 /* web */
 .web-banner{
     background-color: 
@@ -732,7 +709,8 @@ body{
 }
 /* webdesign */
 .web-design-banner{
-    background-color: #9575cc;
+    /* background-color: #9575cc; */
+    background-color: #191919;
 }
 .webdesign-duplex{
     display: flex;
@@ -741,18 +719,21 @@ body{
     width: 80px;
     height: 80px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: #9575cc;
+    /* background-color: #9575cc; */
     display: flex;
+    background-color: #fff;
     font-weight: 700;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     font-size: 33px;
     align-items: center;
     justify-content: center;
     border-radius: 20%;
 }
 .webdesign-duplex span:hover{
-    background-color: #3498db;
+    background-color: #0070ad;
     border-radius: 60%;
+    color: #fff;
 }
 /* ai */
 .ai-banner{
@@ -763,6 +744,7 @@ body{
 }
 .ai-box{
     height: 260px;
+    margin-top: 10px;
     padding: 30px 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -1188,7 +1170,8 @@ header {
 
 /* services */
 .service-banner{
-    background-color: #5c81d0;
+    /* background-color: #5c81d0; */
+    background-color: #0070ad;
 }
 .all-service{
     padding: 20px 0px;
