@@ -7,13 +7,13 @@ const Service =()=>
     <div className='service-banner'>
         <div className='container'>
             <div className='row'>
-            <div className="col-sm-12 col-md-12 col-lg-7">
+            <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
                     <h3 className='mobile-text'>Most Reliable Web application Developemnt Services</h3>
                     <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-5">
+            <div className="col-md-5 d-flex justify-content-end">    
                 <div className='web-banner-right'>
                     <img src={require('./../assets/Software.png')} id="animated"/>
                 </div>

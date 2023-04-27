@@ -7,7 +7,7 @@ const Blockchain =()=>
        <div className='blockchain-banner'>
         <div className='container'>
             <div className='row'>
-            <div className="col-sm-12 col-md-12 col-lg-8">
+            <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
                     <h3 className='mobile-text'>BlockChain Development <br/>Services</h3>
                     <p>With our proven expertise in blockchain technologies, we build solutions that are highly secure, transparent, yet scalable.
@@ -17,7 +17,7 @@ const Blockchain =()=>
                     </div> */}
                 </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <div className="col-md-5 d-flex justify-content-end">    
                 <div className='web-banner-right'>
                     <img src={require('./../assets/bb1.webp')} alt="blochchain-back" id="animated"/>
                 </div>

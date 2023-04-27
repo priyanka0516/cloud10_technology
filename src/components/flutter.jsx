@@ -67,6 +67,43 @@ const Flutter =()=>
             </div>
         </div>
     </section>
+    <section className='choose-us'>
+      <div className='container'>
+        <div className='row'></div>
+        <div className="col-md-12">
+          <h2 className='why-us-h3'>Why Flutter</h2>
+        </div>
+        <div className='row mt-5 wow fadeInUp '>
+          <div className='col-md-4'>
+          <div className="why-choose-column">
+          <img src={require('./../assets/mobile-app.png')} id="tech_logo" alt="Team"/>
+            <div className="why-text">
+              <h3>Native Mobile Apps</h3>
+              <p>Loved and used in production by thousand of Developers ,Startups.</p>
+            </div>
+          </div>
+          </div>
+          <div className='col-md-4'>
+          <div className="why-choose-column">
+          <img src={require('./../assets/web-app.png')} id="tech_logo"alt="webapp"/>
+            <div className="why-text">
+              <h3>Flutter for Web</h3>
+              <p>In Beta now, but has strong support from the developer community.</p>
+            </div>
+          </div>
+          </div>
+          <div className='col-md-4'>
+          <div className="why-choose-column">
+         <img src={require('./../assets/learning.png')}id="tech_logo" alt="flutter"/>
+            <div className="why-text">
+              <h3>Desktop Apps</h3>
+              <p>MacOS Support:In Alpha Windows and Linux:Under Development.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <div className='faq'>
       <div className='container'>
         <div className='row'>

@@ -33,7 +33,7 @@ const Iot =()=>
             <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
                     <h3 className='mobile-text'>Being a Leading  IOT<br/>Development Company</h3>
-                    <p>We make scalable IOT platforms.It's the beginning of machines taking over the world</p>
+                    <p>We make scalable IOT platforms.It's the beginning of machines taking over the world.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
             <div className="col-md-5 d-flex justify-content-end">

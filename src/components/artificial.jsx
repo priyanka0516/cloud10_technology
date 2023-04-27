@@ -1,23 +1,17 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
- 
-const Artificial =()=>
-{
+const Artificial = () => {
   return (
     <>
-       <div className='ai-banner'>
+    <div className='ai-banner'>
         <div className='container'>
-            <div className='row'>
-            <div className="col-sm-12 col-md-12 col-lg-7">
+        <div className='row'>
+            <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
-                    <h3 className='mobile-text'>Artificial Inteligence Services</h3>
-                    <p>We know that Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. so let's work smartly. </p>
-                    {/* <div className='mt-3'>
-                        <NavLink to="/service" className='btn-get-started'>Get Started</NavLink>
-                    </div> */}
+                    <h3 className='mobile-text'>A Leading Artificial <br/>Inteligence Development Company</h3>
+                    <p>We know that Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. so let's work smartly.</p>
                 </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-5">
+            <div className="col-md-5 d-flex justify-content-end">    
                 <div className='web-banner-right'>
                     <img src={require('./../assets/aiback.png')} alt="ai-bg" id="animated"/>
                 </div>
@@ -25,7 +19,7 @@ const Artificial =()=>
             </div>
         </div>
     </div>
-  <div className='ai-service'>
+    <div className='ai-service'>
     <div className='container'>
     <div className='row'>
         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
@@ -68,8 +62,7 @@ const Artificial =()=>
             <h3 className='why-us-h3'>Benefits Of Using AI</h3>
           </div>
         </div>
-        </div>
-        
+        </div>       
         <div className='row'>
             <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6'>
                 <div className='benefits-duplex'>
@@ -89,8 +82,7 @@ const Artificial =()=>
                     <div className="text">03</div>
                     </div>
                     <div className="benefit-ai"><h3>Healthcare-Applications</h3></div>
-                </div>
-                
+                </div>               
             </div>
             <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6'>
             <div className='benefits-duplex'>
@@ -128,9 +120,8 @@ const Artificial =()=>
             </div>
         </div>
     </div>
-  </section>
+    </section>
     </>
   )
-}
- 
-export default  Artificial;
+} 
+export default Artificial;

@@ -5,21 +5,21 @@ const About = () =>
   return (
     <>
     <div className='about-banner'>
-            <div className='container'>
-              <div className='row'>
-                <div className="col-md-7 d-flex flex-column justify-content-center">
-                    <div className='mobile-banner-left'>
-                        <h3 className='mobile-text'> A Leading Product<br/> Developemnt Company</h3>
-                        <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
-                    </div>
-                </div>
-                <div className="col-md-5 d-flex justify-content-end">    
-                  <img src={require('./../assets/domain-expertise.png')} alt="about-banner" className='img-fluid'/>
-                </div>
-                </div>
+      <div className='container'>
+        <div className='row'>
+          <div className="col-md-7 d-flex flex-column justify-content-center">
+            <div className='mobile-banner-left'>
+              <h3 className='mobile-text'> A Leading Product<br/> Developemnt Company</h3>
+              <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
             </div>
+          </div>
+          <div className="col-md-5 d-flex justify-content-end">    
+            <img src={require('./../assets/domain-expertise.png')} alt="about-banner" className='img-fluid'/>
+          </div>
         </div>
-        <section className='why-us'>
+      </div>
+    </div>
+    <section className='why-us'>
     <div class="leverage_left"><img src={require('./../assets/leverage_left.png')}alt="Mobile-App-Development-Services"/></div>
     <div className='container'>
       <div className='row'>
@@ -42,11 +42,9 @@ const About = () =>
           <div className='col-md-6 align-items-center'>
           <h2>Process<br/> <b>we follow</b></h2>
           <p>To understand the requirement well &amp; deliver the final product seamlessly we follow a process that is not only transparent but most efficient too! <br/><br/>
-
-                                    Our process includes practices, and tools, which improves our ability to deliver products at a high velocity. Our updated tech experts allow us to evolve and improve products at a faster pace than other product development companies.<br/><br/>
-
-                                    We utilize this speed &amp; efficiency in building and scaling your business.
-                                </p>
+          Our process includes practices, and tools, which improves our ability to deliver products at a high velocity. Our updated tech experts allow us to evolve and improve products at a faster pace than other product development companies.<br/><br/>
+          We utilize this speed &amp; efficiency in building and scaling your business.
+          </p>
           </div>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import React from 'react';
- 
 const Webapp =()=>
 {
   return (
@@ -7,15 +6,15 @@ const Webapp =()=>
     <div className='web-banner'>
         <div className='container'>
             <div className='row'>
-            <div className="col-sm-12 col-md-12 col-lg-7">
+            <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
                     <h3 className='mobile-text'>Most Reliable Web application Developemnt Services</h3>
                     <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-5">
+            <div className="col-md-5 d-flex justify-content-end">   
                 <div className='web-banner-right'>
-                    <img src={require('./../assets/web-development.webp')} id="animated"/>
+                    <img src={require('./../assets/web-development.webp')} id="animated" alt="webapp"/>
                 </div>
             </div>
             </div>
@@ -23,11 +22,6 @@ const Webapp =()=>
     </div>
     <div className='working'>
         <div className='container'>
-            {/* <div className='row'>
-            <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-            <h3 className='why-us-h3'>What we do</h3>
-            </div>
-            </div> */}
             <div className='row'>
                 <p>Backend Development</p>
                 <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate">
@@ -110,6 +104,5 @@ const Webapp =()=>
     </div>
     </>
   )
-}
- 
-export default  Webapp;
+} 
+export default Webapp;

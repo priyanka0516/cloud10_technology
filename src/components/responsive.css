@@ -153,6 +153,12 @@ footer .fcopy p {
     .why-choose-column {display: block;}
     #tech_logo {
         margin-left: 13px;}
+        .mobile-text {
+            color: #fff!important;
+            line-height: 50px;
+            font-size: 35px;
+            font-weight: 700;
+        }
 }
 
 @media (min-width: 1024px) and (max-width: 1334px){

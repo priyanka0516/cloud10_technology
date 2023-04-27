@@ -11,7 +11,7 @@ export default class Home extends Component {
     <div className='mobile-home-banner'>
           <div className='container'>
             <div className='row'>
-            <div className="col-sm-6 col-md-6 col-lg-6">
+            <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
                 <h1 className='top-text-banner'>Grow Your Business With <strong className='brand-name'> our team</strong></h1>
                     <h2 className='my-3'>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</h2>
@@ -20,10 +20,11 @@ export default class Home extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-sm-6 col-md-6 col-lg-6">
-            <div className='mobile-banner-right'>
-                    <img src={require('./../assets/robot.png')} alt="mainbanner" />
-                </div>
+            <div className="col-md-5 d-flex justify-content-end">    
+            {/* <div className='mobile-banner-right'> */}
+            
+                    <img src={require('./../assets/robot.png')} alt="mainbanner" className='img-fluid'/>
+                {/* </div> */}
             </div>
             </div>
         </div>

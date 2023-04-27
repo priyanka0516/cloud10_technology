@@ -6,13 +6,13 @@ const Webdesign =()=>
     <div className='web-design-banner'>
         <div className='container'>
             <div className='row'>
-            <div className="col-sm-12 col-md-12 col-lg-8">
+            <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
-                    <h3 className='mobile-text'>Attractive UI/UX Design <br/> Services</h3>
+                    <h3 className='mobile-text'>A Leading Attractive <br/>UI/UX Design <br/> Services Company</h3>
                     <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <div className="col-md-5 d-flex justify-content-end">    
                 <div className='web-banner-right'>
                     <img src={require('./../assets/web-bg.png')} alt=""/>
                 </div>
@@ -25,7 +25,7 @@ const Webdesign =()=>
     <div className='row'>
         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
           <div className='section-heads'>
-            <h3 className='why-us-h3'>Benefits Of Blockchain</h3>
+            <h3 className='why-us-h3'>Benefits</h3>
           </div>
         </div>
       </div>
