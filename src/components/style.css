@@ -251,6 +251,7 @@ body{
     text-transform: capitalize;
     position: relative;
     font-weight: 600;
+    animation: fade-bottom 1s ease-in;
 }
 .why-us-h3:before {
     width: 30px;
@@ -455,12 +456,11 @@ body{
 }
 /* mobileapp */
 .mobile-banner{
-    /* background-image: url('./../assets/mobile-app-bg.png'); */
     background-size: cover;
     position: relative;
     align-items: center;
-    background-color: #8a58ea;
-    /* height: 500px; */
+    /* background-color: #8a58ea; */
+    background-color: #191919;
 }
 .steps{
    padding: 30px 0px;
@@ -631,10 +631,12 @@ body{
 }
 #domain_logo{
     height: 100px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 .domain-text{
     font-size: 16px;
-    color: #484848;
+    animation: fade-bottom 1s ease-in;
+    color: #000;
     font-weight: 700;
     padding: 10px 0px;
 }
@@ -697,10 +699,25 @@ body{
 .technology{
     box-shadow: 0 4px 4px rgb(0 0 0/25%);
     padding: 20px;
-    /* background: #ffecec; */
     border-radius: 30px;
+    transition: 0.5s all ease-in-out;
 }
-.technology h3{
+.technology1{
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s all ease-in-out;
+}
+.technology:hover{
+    padding: 20px;
+    transform: scale(1.1);
+}
+.technology1:hover{
+    padding: 20px;
+    transform: scale(1.1);
+}
+.technology h3,.technology1 h3{
     color: #000;
     font-size: 15px;
     font-weight: 700;
@@ -853,6 +870,16 @@ body{
 }
 
 /* footer */
+#top-bottom{
+    position: fixed;
+      bottom: 30px;
+      right: 20px;
+      border-radius: 50%;
+      width: 41px;
+      height: 40px;
+      padding: 6px;
+      z-index: 999999
+  }
 .footer {
     padding: 40px 0 0px 0;
     background:#fff;
@@ -1170,8 +1197,9 @@ header {
 
 /* services */
 .service-banner{
+    background-color: #191919;
     /* background-color: #5c81d0; */
-    background-color: #0070ad;
+    /* background-color: #0070ad; */
 }
 .all-service{
     padding: 20px 0px;
@@ -1338,7 +1366,7 @@ h3.heading {
     border-radius: 99em 0 0 99em;
     display: flex;
     align-items: center;
-    padding: 0.625em 0.75em;
+    padding: 8px 8px;
     font-size: 14px;
     font-weight: 600;
     color: var(--c-coffee);
@@ -1375,4 +1403,36 @@ h3.heading {
 }
 .quantum-banner{
     background-color: #132d4d;
+}
+/* mission */
+.mission{
+    padding: 50px 0px;
+}
+.image-1{
+text-align: center;
+position: relative;
+}
+.desc-partner {
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    text-align: left;
+    width: 48%;
+    margin: 0 auto;
+    right: 0;
+}
+.desc-partner img {
+    width: 30px;
+    height: 30px;
+}
+.desc-partner h6 {
+    color: #000;
+    font-size: 16px;
+    margin: 13px 0;
+    font-weight: 700;
+}
+.desc-partner p {
+    color: #6c6c6c;
+    text-align: left;
+    font-size: 14px;
 }

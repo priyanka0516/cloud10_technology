@@ -3,31 +3,29 @@ import React,{Component}from 'react';
 import './style.css';
 import './responsive.css';
 import { NavLink } from 'react-router-dom';
-
 export default class Home extends Component {
   render() {
     return (
     <div>
     <div className='mobile-home-banner'>
-          <div className='container'>
-            <div className='row'>
-            <div className="col-md-7 d-flex flex-column justify-content-center">
-                <div className='mobile-banner-left'>
-                <h1 className='top-text-banner'>Grow Your Business With <strong className='brand-name'> our team</strong></h1>
-                    <h2 className='my-3'>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</h2>
-                    <div className='mt-3'>
-                        <NavLink to="/service" className='btn-get-started'>Get Started</NavLink>
-                    </div>
-                </div>
+      <div className='container'>
+        <div className='row'>
+          <div className="col-md-7 d-flex flex-column justify-content-center">
+            <div className='mobile-banner-left'>
+              <h1 className='top-text-banner'>A Leading Service <strong className='brand-name'>Based Company in India</strong></h1>
+              <h2 className='my-3'>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</h2>
+              <div className='mt-3'>
+                <NavLink to="/service" className='btn-get-started'>Get Started</NavLink>
+              </div>
             </div>
-            <div className="col-md-5 d-flex justify-content-end">    
+          </div>
+          <div className="col-md-5 d-flex justify-content-end">    
             {/* <div className='mobile-banner-right'> */}
-            
-                    <img src={require('./../assets/robot.png')} alt="mainbanner" className='img-fluid'/>
-                {/* </div> */}
-            </div>
-            </div>
+            <img src={require('./../assets/robot.png')} alt="mainbanner" className='img-fluid'/>
+            {/* </div> */}
+          </div>
         </div>
+      </div>
     </div>
     <section className='why-us'>
     <div class="leverage_left"><img src={require('./../assets/leverage_left.png')}alt="Mobile-App-Development-Services"/></div>
@@ -307,6 +305,57 @@ export default class Home extends Component {
         </div>
       </div>
     </section>
+    <div className='working'>
+        <div className='container'>
+            <div className='row'>
+                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 aos-init aos-animate">
+                <div className="technology1">
+                            <div className="impactIcon">
+                              <img src={require('./../assets/mission.png')}  id="tech-logo"  alt="java"/>
+                            </div>
+                            <h3>Our Mission</h3>
+                            <p className="paragraph">To be a part of people's life by offering services, with high quality, innovation, and at affordable prices anywhere in India.</p>
+                        </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 aos-init aos-animate">
+                <div className="technology1">
+                            <div className="impactIcon">
+                            <img src={require('./../assets/vision1.png')}  id="tech-logo" alt="python"/>
+                            </div>
+                            <h3>Our Vision</h3>
+                            <p className="paragraph">To be one of the top service based company in the world, admired for its, brands, innovations and outstanding results.</p>
+                        </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 aos-init aos-animate">
+                <div className="technology1">
+                            <div className="impactIcon">
+                            <img src={require('./../assets/teamwork.png')} id="tech-logo"  alt="node"/>
+                            </div>
+                            <h3>Our Culture</h3>
+                            <p className="paragraph">We maintain general atmosphere to the company by giving values to our employees, maintaing a friendly environment in our company. </p>
+                        </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+    {/* <section className='mission'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-6 col-md-6 col-sm-12'>
+          <div className='image-1'>
+            <img src={require('./../assets/why_eventstan1.png')}  alt="travel"/>
+            <div class="desc-partner"><img src={require('./../assets/target.gif')} alt="target" /><h6>Our Mission</h6><p>To be a part of people's life by offering services ,with high quality, innovation, and at affordable prices anywhere in India.</p></div>
+            </div>    
+          </div>
+          <div className='col-lg-6 col-md-6 col-sm-12'>
+          <div className='image-1'>
+          <img src={require('./../assets/why_eventstan2.png')}  alt="travel"/>
+          <div class="desc-partner"><img src={require('./../assets/view.gif')} alt="vision"/><h6>Our Vision</h6><p>To be one of the top service based company in the world, admired for its, brands, innovations and results.</p></div>
+          </div>
+            </div>
+        </div>
+      </div>
+    </section> */}
   {/* <section className='clients-area'>
     <div className="container">
       <div className='row'>

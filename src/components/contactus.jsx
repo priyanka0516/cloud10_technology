@@ -9,7 +9,7 @@ const Contact = () =>
             <div className='contact-inner-banner'>
                 <div className='container'>
             <div className='mobile-banner-left'>
-                        <h3 className='contact-mobile-text'>Let's talk to bring<br/> Idea Into Reality</h3>
+                        <h3 className='mobile-text'>Let's talk to bring<br/> Idea Into Reality</h3>
                         <p>We are just helping startups and Enterprises in Embracing<br/> Technologies That bring the highest values.</p>
                     </div>
                 </div>

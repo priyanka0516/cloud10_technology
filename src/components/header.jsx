@@ -34,8 +34,7 @@ export default class Header extends Component {
                             6371499414
                     </div>
                     <div id="open" className="pull-left" style={{marginLeft:'10px'}}>
-                    <img className='top-img'src={require("./../assets/open.png")}alt="phone"/>
-                            Opening 7am-9pm
+                    <img className='top-img'src={require("./../assets/open.png")}alt="phone"/>Opening 7am-9pm
                     </div>
                     <div id="email" className="pull-right">
                     <img className='top-img' src={require("./../assets/email.png")}alt="email"/>
@@ -46,7 +45,7 @@ export default class Header extends Component {
               </div>
             </div>
         </div>
-        <Navbar bg="white"sticky="top"  variant="dark" expand="lg" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
+        <Navbar bg="white" sticky="top" expand="lg" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
         <Container>
         <Navbar.Brand><img src={require('./../assets/logo.png')} alt="logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -1,8 +1,30 @@
-import React from 'react';
+import React,{useState} from 'react';
+import { Button } from 'react-bootstrap';
+import {FaArrowCircleUp} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
  
 const Footer =()=>
 {
+  const [visible, setVisible] = useState(false)
+  
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 300){
+      setVisible(true)
+    } 
+    else if (scrolled <= 300){
+      setVisible(false)
+    }
+  };
+  const scrollToTop = () =>{
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+      /* you can also use 'auto' behaviour
+         in place of 'smooth' */
+    });
+  };
+  window.addEventListener('scroll', toggleVisible);
   return (
 <>
 <div className='footer'>
@@ -29,13 +51,15 @@ const Footer =()=>
         <div className='footer-item'>
           <div className="footer-title">Our Services</div>
             <ul>
-              <li className="animate"><Link to="/ainetwork">Artificial Intelligence</Link></li>
-              <li className="animate"><Link to="/blockchain">Blockchain Development</Link></li>
-              <li className="animate"><Link to="/iot">IOT</Link></li>
-              <li className="animate"><Link to="/mobileapp">Mobile Application Development</Link></li>
-              <li className="animate"><Link to="/webapp">Web Application Development</Link></li>
-              <li className="animate"><Link to="/webdesign">Website Designing</Link></li>
-              <li className="animate"><Link to="/webdesign">Website Designing</Link></li>   
+              <li className="animate"><Link to="/ainetwork" onClick={scrollToTop} >Artificial Intelligence</Link></li>
+              <li className="animate"><Link to="/blockchain" onClick={scrollToTop} >Blockchain Development</Link></li>
+              <li className="animate"><Link to="/mobileapp" onClick={scrollToTop} >Mobile Application Development</Link></li>
+              <li className="animate"><Link to="/iot" onClick={scrollToTop} >IOT</Link></li>
+              <li className="animate"><Link to="/quantum" onClick={scrollToTop} >Quantum Computing</Link></li>
+              <li className="animate"><Link to="/cardano" onClick={scrollToTop} >Cardano</Link></li>
+              <li className="animate"><Link to="/webapp" onClick={scrollToTop} >Web Application Development</Link></li>
+              <li className="animate"><Link to="/webdesign" onClick={scrollToTop} >Website Designing</Link></li>
+              <li className="animate"><Link to="/flutter" onClick={scrollToTop} >Flutter Development</Link></li>   
             </ul>
         </div>
       </div>
@@ -98,6 +122,10 @@ const Footer =()=>
   </div>
 </div>
 </div>
+<Button id="top-bottom"onClick={scrollToTop} 
+     style={{display: visible ? 'inline' : 'none'}}>
+     <FaArrowCircleUp  />
+    </Button>
 </>
 )
 }
