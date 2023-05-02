@@ -1005,9 +1005,9 @@ ul.members li a {
     background-color: #000;
  }
  .img-fluid{
-    max-width: 75%;
+    max-width: 100%;
     height: auto;
-    margin: 50px;
+    margin: 0px 20px 0px 20px;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 .about_subsec {
