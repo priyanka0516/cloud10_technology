@@ -1007,6 +1007,7 @@ ul.members li a {
  .img-fluid{
     max-width: 100%;
     height: auto;
+    padding: 0px 50px 0px 50px;
     margin: 0px 20px 0px 20px;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
