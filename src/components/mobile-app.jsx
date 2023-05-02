@@ -27,7 +27,7 @@ const Mobileapp = () => {
                     <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
-            <div className="col-md-5 d-flex justify-content-end">    
+            <div className="col-md-5 d-flex justify-content-center">    
                 {/* <div className='mobile-banner-right'> */}
                     <img src={require('./../assets/mobile-apps.png')} alt="mobileapplication" className='img-fluid'/>
                 {/* </div> */}

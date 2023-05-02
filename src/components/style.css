@@ -754,7 +754,8 @@ body{
 }
 /* ai */
 .ai-banner{
-    background-color: #9f78b5;
+    /* background-color: #9f78b5; */
+    background-color: #00023A;
 }
 .ai-banner .web-banner-righ img{
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -1203,6 +1204,16 @@ header {
 }
 .all-service{
     padding: 20px 0px;
+}
+#servicemore{
+    color: #0070ad;
+    letter-spacing: 0px;
+    border-radius: 52px;
+    clear: both;
+    margin: 20px 0px;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
 }
 h3.heading {
     font-size: 22px;

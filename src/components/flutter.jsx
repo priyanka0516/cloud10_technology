@@ -35,7 +35,7 @@ const Flutter =()=>
                     <p>Develop natively compiled mobile, web, and desktop experiences with us.</p>
                 </div>
             </div>
-            <div className="col-md-5 d-flex justify-content-end">
+            <div className="col-md-5 d-flex justify-content-center">
                 <div className='web-banner-right'>
                     <img src={require('./../assets/flutter.png')} alt=""/>
                 </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 const About = () =>
 {
   return (
@@ -13,7 +12,7 @@ const About = () =>
               <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
             </div>
           </div>
-          <div className="col-md-5 d-flex justify-content-end">    
+          <div className="col-md-5 d-flex justify-content-center">    
             <img src={require('./../assets/domain-expertise.png')} alt="about-banner" className='img-fluid'/>
           </div>
         </div>

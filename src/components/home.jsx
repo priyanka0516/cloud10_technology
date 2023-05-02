@@ -19,7 +19,7 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-5 d-flex justify-content-end">    
+          <div className="col-md-5 d-flex justify-content-center">    
             {/* <div className='mobile-banner-right'> */}
             <img src={require('./../assets/robot.png')} alt="mainbanner" className='img-fluid'/>
             {/* </div> */}
@@ -277,7 +277,7 @@ export default class Home extends Component {
           </div>
           <div className='col-md-4'>
           <div className="why-choose-column">
-          <img src={require('./../assets/domain-expertise.png')} id="tech_logo"alt="Domain"/>
+          <img src={require('./../assets/domain-expert.png')} id="tech_logo"alt="Domain"/>
             <div className="why-text">
               <h3>Domain Expertise</h3>
               <p>Whether you are a startup or an organization, Cloud10 Technology is a full-service enterprise where you can discover comprehensive development services.</p>

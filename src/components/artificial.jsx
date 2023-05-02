@@ -34,7 +34,7 @@ const Artificial = () => {
                     <p>We know that Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. so let's work smartly.</p>
                 </div>
             </div>
-            <div className="col-md-5 d-flex justify-content-end">    
+            <div className="col-md-5 d-flex justify-content-center">    
                 <div className='web-banner-right'>
                     <img src={require('./../assets/aiback.png')} alt="ai-bg" id="animated"/>
                 </div>
@@ -55,21 +55,21 @@ const Artificial = () => {
         <div className='row py-3'>
             <div className='col-md-4'>
             <div className='ai-box'>
-            <img src={require('./../assets/health-insurance.png')}/>
+            <img src={require('./../assets/health-insurance.png')} alt="health-insurance"/>
                 <h2>Ai in Healthcare </h2>
                 <p className='paragraph'>Deep learning AI can be used to help detect diseases faster, provide personalized treatment plans and even automate certain processes such as drug discovery or diagnostics.</p>
             </div>
             </div>
             <div className='col-md-4'>
             <div className='ai-box'>
-            <img src={require('./../assets/ecommerce.png')}/>
+            <img src={require('./../assets/ecommerce.png')} alt="ecommerce"/>
                 <h2>Ai in Ecommerce </h2>
                 <p className='paragraph'>AI is beneficial for today's online retailers to deliver an outstanding customer and user experience in eCommerce and make intelligent business decisions by using customer data.</p>
             </div> 
             </div>
             <div className='col-md-4'>
             <div className='ai-box'>
-            <img src={require('./../assets/hacker.png')}/>
+            <img src={require('./../assets/hacker.png')} alt="Cybersecurity"/>
                 <h2>Ai in Cybersecurity </h2>
                 <p className='paragraph'>AI in cybersecurity eliminates time-consuming tasks done manually by human experts. It scans vast data and identifies potential threats and reduces false positives by filtering out non-threatening activities.</p>
             </div>  

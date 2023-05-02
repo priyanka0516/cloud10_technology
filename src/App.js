@@ -16,10 +16,12 @@ import Flutter from './components/flutter';
 import Iot from './components/iot';
 import Cardano from './components/cardano';
 import Quantum from './components/quantum';
+import ScrollToTop from './components/Scrolltotop';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollToTop/>
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
