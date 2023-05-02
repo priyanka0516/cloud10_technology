@@ -58,7 +58,10 @@ body{
     background-color: #f3f3f3;
 }
 #animated{
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
    
 }
 @keyframes fadeInUp{
