@@ -13,7 +13,7 @@ const About = () =>
             </div>
           </div>
           <div className="col-md-5 d-flex justify-content-center">    
-            <img src={require('./../assets/domain-expertise.png')} alt="about-banner" className='img-fluid'/>
+            <img src={require('./../assets/domain-expertise.png')} alt="about-banner"id="animated"/>
           </div>
         </div>
       </div>

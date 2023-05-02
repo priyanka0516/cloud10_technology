@@ -21,7 +21,7 @@ export default class Home extends Component {
           </div>
           <div className="col-md-5 d-flex justify-content-center">    
             {/* <div className='mobile-banner-right'> */}
-            <img src={require('./../assets/robot.png')} alt="mainbanner" className='img-fluid'/>
+            <img src={require('./../assets/robot.png')} alt="mainbanner" id="animated"/>
             {/* </div> */}
           </div>
         </div>
