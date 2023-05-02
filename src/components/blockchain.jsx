@@ -32,7 +32,7 @@ const Blockchain =()=>
             <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
                     <h3 className='mobile-text'>A Leading BlockChain<br/> Development  Company</h3>
-                    <p>With our proven expertise in blockchain technologies, we build solutions that are highly secure, transparent, yet scalable.
+                    <p>We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.With our proven expertise in blockchain technologies, we build solutions that are highly secure, transparent, yet scalable.
                     </p>
                     {/* <div className='mt-3'>
                         <NavLink to="/service" className='btn-get-started'>Get Started</NavLink>
@@ -41,7 +41,7 @@ const Blockchain =()=>
             </div>
             <div className="col-md-5 d-flex justify-content-center">    
                 <div className='web-banner-right'>
-                    <img src={require('./../assets/bb1.webp')} alt="blochchain-back" id="animated"/>
+                    <img src={require('./../assets/bb1.png')} alt="blochchain-back" id="animated"/>
                 </div>
             </div>
             </div>

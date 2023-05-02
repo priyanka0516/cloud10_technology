@@ -28,9 +28,7 @@ const Mobileapp = () => {
                 </div>
             </div>
             <div className="col-md-5 d-flex justify-content-center">    
-                {/* <div className='mobile-banner-right'> */}
-                    <img src={require('./../assets/mobile-apps.png')} alt="mobileapplication" className='img-fluid'/>
-                {/* </div> */}
+                <img src={require('./../assets/home-banner.png')} alt="mobileapplication" id="animated"/>
             </div>
             </div>
         </div>
@@ -38,9 +36,9 @@ const Mobileapp = () => {
     <div className='working'>
         <div className='container'>
             <div className='row'>
-            <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-            <h3 className='why-us-h3'>Industries we’ve excelled in</h3>
-            </div>
+                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <h3 className='why-us-h3'>Industries we’ve excelled in</h3>
+                </div>
             </div>
             <div className='row'>
                 <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6 aos-init'>
