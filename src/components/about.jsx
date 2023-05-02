@@ -7,7 +7,7 @@ const About = () =>
     <div className='about-banner'>
       <div className='container'>
         <div className='row'>
-          <div className="col-md-7 d-flex flex-column justify-content-center">
+        <div className="col-md-7 d-flex flex-column justify-content-center">
             <div className='mobile-banner-left'>
               <h3 className='mobile-text'> A Leading Product<br/> Developemnt Company</h3>
               <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
