@@ -51,15 +51,16 @@ export default class Header extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" onClick={this.setNavClose}>
-            <Link to="/"  id="navbar-head" className='active'>Home</Link>
+            <Link to="/" id="navbar-head" className='active'>Home</Link>
             <Link to="about" id="navbar-head">About</Link>
             <Link to="service"id="navbar-head">Services</Link>
+            <Link to="product"id="navbar-head">Products</Link>
             <Link to="contact"id="navbar-head">Contact</Link>
             <Link to="resources"id="navbar-head">Resources</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+        </Navbar>
     </>
     );
   }

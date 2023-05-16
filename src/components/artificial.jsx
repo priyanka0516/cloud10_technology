@@ -30,8 +30,8 @@ const Artificial = () => {
         <div className='row'>
             <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
-                    <h3 className='mobile-text'>A Leading Artificial <br/>Inteligence Development Company</h3>
-                    <p>We know that Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. so let's work smartly.</p>
+                    <h3 className='mobile-text' style={{color:'#fff'}}>A Leading <br/> <strong>Artificial Inteligence</strong> Development Company</h3>
+                    <p style={{color:'#fff'}}>We know that Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. so let's work smartly.</p>
                 </div>
             </div>
             <div className="col-md-5 d-flex justify-content-center">    

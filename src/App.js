@@ -17,6 +17,7 @@ import Iot from './components/iot';
 import Cardano from './components/cardano';
 import Quantum from './components/quantum';
 import ScrollToTop from './components/Scrolltotop';
+import Product from './components/product';
 function App() {
   return (
     <div className="App">
@@ -38,6 +39,7 @@ function App() {
         <Route path="/iot" element={<Iot/>}/>
         <Route path="/cardano" element={<Cardano/>}/>
         <Route path="/quantum" element={<Quantum/>}/>
+        <Route path="/product" element={<Product/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

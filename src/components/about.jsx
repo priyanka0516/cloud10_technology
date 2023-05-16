@@ -8,7 +8,7 @@ const About = () =>
         <div className='row'>
         <div className="col-md-7 d-flex flex-column justify-content-center">
             <div className='mobile-banner-left'>
-              <h3 className='mobile-text'> A Leading Product<br/> Developemnt Company</h3>
+              <h3 className='mobile-text'>A Leading Product<br/><strong>Development Company</strong><br/>in India</h3>
               <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
             </div>
           </div>
@@ -19,7 +19,7 @@ const About = () =>
       </div>
     </div>
     <section className='why-us'>
-    <div class="leverage_left"><img src={require('./../assets/leverage_left.png')}alt="Mobile-App-Development-Services"/></div>
+    <div className="leverage_left"><img src={require('./../assets/leverage_left.png')}alt="Mobile-App-Development-Services"/></div>
     <div className='container'>
       <div className='row'>
         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>

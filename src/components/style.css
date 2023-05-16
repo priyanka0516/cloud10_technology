@@ -48,7 +48,6 @@ body{
     /* color:#fff; */
 }
 .navbar-toggler {
-    /* background: #19acd5!important; */
     background-color: #0070ad;
 }
 .top-bar {
@@ -58,11 +57,10 @@ body{
     background-color: #f3f3f3;
 }
 #animated{
-    padding: 30px;
+    padding: 70px;
     width: 100%;
     height: auto;
     /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
-   
 }
 @keyframes fadeInUp{
     0% {
@@ -103,14 +101,22 @@ body{
     color:#0070ad;
 }
 .pull-left {
-    float: left !important;
+    float: left;
     font-weight: 600;
 }
 .pull-right {
-    float: right !important;
+    float: right;
     font-weight: 600;
 }
 /*======= Home =======*/
+
+.mobile-home-banner{
+    /* background-image: url('./../assets/mobile-app-bg.png'); */
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    /* height: 500px; */
+}
 /* header */
 #header{
     width:100%;  
@@ -121,7 +127,7 @@ body{
     font-weight: 700;
     font-size: 48px;
     text-align: left;
-    color:#fff;
+    color:#000;
     z-index: 999;
     opacity: 0;
     transform: translateY(30px);
@@ -137,12 +143,16 @@ body{
     color:#3498db;
     /* color:#fff; */
  }
+ strong{
+    color:#0070ad;
+ }
   .my-3{
-    color:#fff;
+    color:#000;
     font-size: 14px;
     z-index: 999;
     line-height: 25px;
     text-align: left;
+    width: 500px;
     animation: fadeContent 1s ease-in-out forwards;
     animation-delay: 1s;
     opacity: 0;
@@ -157,7 +167,7 @@ body{
   }
  .mt-3 {
     text-align: start;
-    margin-top: 2rem!important;
+    margin-top: 2rem;
     z-index: 999;
  }
  .btn-get-started{
@@ -247,14 +257,14 @@ body{
     }
   }
 .why-us-h3{
-    font-size: 35px !important;
+    font-size: 35px;
     letter-spacing: 1px;
     line-height: 40px;
     text-align: center;
     text-transform: capitalize;
     position: relative;
     font-weight: 600;
-    animation: fade-bottom 1s ease-in;
+    animation: fade-bottom 1.5s ease-in;
 }
 .why-us-h3:before {
     width: 30px;
@@ -294,7 +304,7 @@ body{
     background-color: #0070ad;
 }
 .custom-paragraph{
-    font-size: 14px !important;
+    font-size: 14px;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
@@ -408,7 +418,7 @@ body{
 }
 .m-bx {
     padding: 30px 10px;
-    width: 100%!important;
+    width: 100%;
     height: 130px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: .2s;
@@ -441,7 +451,7 @@ body{
     background: #f9f0ec;
 }
 .domain_heading {
-    font-size: 38px !important;
+    font-size: 38px;
     letter-spacing: 1px;
     line-height: 40px;
     text-transform: capitalize;
@@ -450,20 +460,13 @@ body{
     text-align: center;
 }
 
-.mobile-home-banner{
-    background-image: url('./../assets/mobile-app-bg.png');
-    background-size: cover;
-    position: relative;
-    align-items: center;
-    /* height: 500px; */
-}
 /* mobileapp */
 .mobile-banner{
     background-size: cover;
     position: relative;
     align-items: center;
     /* background-color: #8a58ea; */
-    background-color: #191919;
+    background-color: #fff;
 }
 .steps{
    padding: 30px 0px;
@@ -513,21 +516,26 @@ body{
     font-weight: 600;
 }
 .why-us-h3 {
-    font-size: 30px !important;}
+    font-size: 30px ;}
 .mobile-text{
-    color: #fff!important;
+    color: #000;
     line-height: 68px;
     font-size: 48px;
     font-weight: 700;
+    animation: fade-bottom 1s ease-in;
 }
 .mobile-banner-left{
     padding: 110px 0px;
     position: relative;
 }
 .mobile-banner-left p{
-    color: #fff!important;
+    color: #000;
     font-size: 14px;
     line-height: 25px;
+    width: 500px;
+    animation: fadeContent 1s ease-in-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
 }
 .mobile-banner-right{
     position: relative;
@@ -612,7 +620,7 @@ body{
     height: auto;
 }
 .why-choose-column .why-text h3 {
-    font-size: 16px;
+    font-size: 15px;
     text-align: left;
     font-weight: 600;
 }
@@ -730,7 +738,7 @@ body{
 /* webdesign */
 .web-design-banner{
     /* background-color: #9575cc; */
-    background-color: #191919;
+    background-color: #fff;
 }
 .webdesign-duplex{
     display: flex;
@@ -815,7 +823,7 @@ body{
 /* blochchain */
 .blockchain-banner{
     background-color: 
-    #0070ad;
+    #fff;
 }
 .benefits-blockchain-duplex{
     display: flex;
@@ -903,7 +911,7 @@ body{
 }
 .footer-title{
     font-size: 16px;
-    font-weight: 700 !important;
+    font-weight: 700;
     padding: 10px 0 10px 0;
     border-bottom: 1px solid #ffffff;
     position: relative;
@@ -949,7 +957,7 @@ body{
     display: inline-block;
 }
 .footer-item ul li a:hover {
-    padding: 0 0 0 5px !important;
+    padding: 0 0 0 5px ;
     color:#0070ad;
 }
 ul.members li a {
@@ -983,7 +991,7 @@ ul.members li a {
     font-weight: 600;
 }
  .footer-sosmed {
-    margin-top: 0px;
+    margin-top: 15px;
     margin-bottom: 0;
     display: flex;
     float: right;
@@ -1005,7 +1013,7 @@ ul.members li a {
  }
  /*aboutus page  */
  .about-banner{
-    background-color: #000;
+    background-color: #fff;
  }
  .img-fluid{
     max-width: 100%;
@@ -1014,8 +1022,15 @@ ul.members li a {
     margin: 20px 20px 0px 20px;
     /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
 }
+.hireprojs {
+    text-align: right;
+    width: 100%;
+    position: relative;
+    padding-top: 120px;
+    float: right;
+}
 .about_subsec {
-    padding: 3em 0 0;
+    padding: 3em 0 3em;
 }
 .about_subsec b {
     color: #0070ad;
@@ -1130,7 +1145,7 @@ height: 350px;
     position: relative;
 }
 .contact-mobile-text {
-    color: #fff!important;
+    color: #fff;
     line-height: 50px;
     font-size: 35px;
     font-weight: 700;
@@ -1202,7 +1217,7 @@ header {
 
 /* services */
 .service-banner{
-    background-color: #191919;
+    background-color: #fff;
     /* background-color: #5c81d0; */
     /* background-color: #0070ad; */
 }
@@ -1300,7 +1315,8 @@ h3.heading {
 }
 /* iot */
 .iot-banner{
-    background-color: #044474;
+    /* background-color: #044474; */
+    background-color: #fff;
 }
 .board{
     padding: 30px 0px ;

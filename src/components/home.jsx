@@ -3,6 +3,7 @@ import React,{Component}from 'react';
 import './style.css';
 import './responsive.css';
 import { NavLink } from 'react-router-dom';
+
 export default class Home extends Component {
   render() {
     return (
@@ -20,7 +21,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div className="col-md-5 d-flex justify-content-center">    
-            {/* <div className='mobile-banner-right'> */}
+            {/* <div className='hireprojs'> */}
             <img src={require('./../assets/robot.png')} alt="mainbanner" id="animated"/>
             {/* </div> */}
           </div>
@@ -60,7 +61,7 @@ export default class Home extends Component {
         <div className="srv-bx">
         <div className="circle-block">
         <div className="circle-with-icon">
-        <img src={require('./../assets/development.png')} alt="blockchain"/>
+        <img src={require('./../assets/cardano.png')} alt="cardano"/>
         </div>
         </div>
         <span className="pricing">
@@ -68,38 +69,9 @@ export default class Home extends Component {
 					<small>Trending</small>
 				</span>
 			</span>
-            <h4>Blockchain Development</h4>
-            <p>Blockchain development refers to building, maintaining, and designing blockchain applications and systems. </p>
-            <NavLink to="/blockchain">Read More</NavLink>
-          </div>
-      </div>
-      <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div className="srv-bx">
-        <div className="circle-block">
-        <div className="circle-with-icon">
-        <img src={require('./../assets/mobile-app.png')} alt="mobile-app"/>
-        </div>
-        </div>
-            <h4>Mobile Application Development</h4>
-            <p>Being a reputed mobile application development company in India,We provide the best mobile applications for ios and Android user both.</p>
-            <NavLink to="/Mobileapp">Read More</NavLink>
-          </div>
-      </div>
-      <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div className="srv-bx">
-        <div className="circle-block">
-        <div className="circle-with-icon">
-        <img src={require('./../assets/iot.png')} alt="iot"/>
-        </div>
-        </div>
-        <span className="pricing">
-				<span>
-					<small>Trending</small>
-				</span>
-			</span>
-            <h4>IOT</h4>
-            <p>Our IOT development services in cloud10 are highly effective. Providing our clients with the best web application solutions is our goal.</p>
-            <NavLink to="/iot">Read More</NavLink>
+            <h4>Cardano</h4>
+            <p>Our Cardano development services in cloud10 are highly effective. Our  main goals is to provide a decentralized platform for developing and running smart contracts and decentralized applications (dapps)</p>
+            <NavLink to="/cardano">Read More</NavLink>
           </div>
       </div>
       <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -123,7 +95,7 @@ export default class Home extends Component {
         <div className="srv-bx">
         <div className="circle-block">
         <div className="circle-with-icon">
-        <img src={require('./../assets/cardano.png')} alt="cardano"/>
+        <img src={require('./../assets/iot.png')} alt="iot"/>
         </div>
         </div>
         <span className="pricing">
@@ -131,11 +103,44 @@ export default class Home extends Component {
 					<small>Trending</small>
 				</span>
 			</span>
-            <h4>Cardano</h4>
-            <p>Our Cardano development services in cloud10 are highly effective. Our  main goals is to provide a decentralized platform for developing and running smart contracts and decentralized applications (dapps)</p>
-            <NavLink to="/cardano">Read More</NavLink>
+            <h4>IOT</h4>
+            <p>Our IOT development services in cloud10 are highly effective. Providing our clients with the best web application solutions is our goal.</p>
+            <NavLink to="/iot">Read More</NavLink>
           </div>
       </div>
+
+      <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div className="srv-bx">
+        <div className="circle-block">
+        <div className="circle-with-icon">
+        <img src={require('./../assets/development.png')} alt="blockchain"/>
+        </div>
+        </div>
+        <span className="pricing">
+				<span>
+					<small>Trending</small>
+				</span>
+			</span>
+            <h4>Blockchain Development</h4>
+            <p>Blockchain development refers to building, maintaining, and designing blockchain applications and systems. </p>
+            <NavLink to="/blockchain">Read More</NavLink>
+          </div>
+      </div>
+
+      <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div className="srv-bx">
+        <div className="circle-block">
+        <div className="circle-with-icon">
+        <img src={require('./../assets/mobile-app.png')} alt="mobile-app"/>
+        </div>
+        </div>
+            <h4>Mobile Application Development</h4>
+            <p>Being a reputed mobile application development company in India,We provide the best mobile applications for ios and Android user both.</p>
+            <NavLink to="/Mobileapp">Read More</NavLink>
+          </div>
+      </div>
+    
+   
       <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div className="srv-bx">
         <div className="circle-block">
@@ -143,7 +148,7 @@ export default class Home extends Component {
         <img src={require('./../assets/web-app.png')} alt="webapp"/>
         </div>
         </div>
-            <h4>Web Application Development</h4>
+            <h4>Web 3.0 Development</h4>
             <p>Our web application development services in cloud10 are highly effective. Providing our clients with the best web application solutions is our goal.</p>
             <NavLink to="/webapp">Read More</NavLink>
           </div>
@@ -155,23 +160,11 @@ export default class Home extends Component {
         <img src={require('./../assets/ui.png')} alt="ui"/>
         </div>
         </div>
-            <h4>Website Designing</h4>
+            <h4>Web 2.0 Development</h4>
             <p>Being a reputed webiste designing company in India,We have provided the attractive and impactful website design to you.</p>
             <NavLink to="/webdesign">Read More</NavLink>
           </div>
       </div>  
-      <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div className="srv-bx">
-        <div className="circle-block">
-        <div className="circle-with-icon">
-        <img src={require('./../assets/learning.png')} alt="flutter"/>
-        </div>
-        </div>
-            <h4>Flutter Development </h4>
-            <p>Flutter is an open-source mobile application development framework created by Google. It allows developers to create high-quality, visually attractive, and fast mobile apps for both iOS and Android platforms using a single codebase.</p>
-            <NavLink to="/flutter">Read More</NavLink>
-          </div>
-      </div>
       </div>
     </div>
     </section>

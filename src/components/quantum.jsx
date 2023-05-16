@@ -18,8 +18,8 @@ const Quantum = () => {
         <div className='row'>
           <div className="col-md-7 d-flex flex-column justify-content-center">
             <div className='mobile-banner-left'>
-              <h3 className='mobile-text'>Being a Professional <br/>Quantum Computing Experts</h3>
-              <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
+              <h3 className='mobile-text'style={{color:'#fff'}} >Being a Professional <br/><strong>Quantum</strong> <br/>Computing Experts</h3>
+              <p style={{color:'#fff'}} >We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
             </div>
           </div>
           <div className="col-md-5 d-flex justify-content-center">

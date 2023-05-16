@@ -23,7 +23,7 @@ const Mobileapp = () => {
             <div className='row'>
             <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
-                    <h3 className='mobile-text'>Leading Mobile application Developemnt Company for Products</h3>
+                    <h3 className='mobile-text'>Leading Mobile application<br/><strong> Developemnt Company</strong> for Products</h3>
                     <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
@@ -33,6 +33,7 @@ const Mobileapp = () => {
             </div>
         </div>
     </div>
+
     <div className='working'>
         <div className='container'>
             <div className='row'>
@@ -44,9 +45,9 @@ const Mobileapp = () => {
                 <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6 aos-init'>
                     <div className='mobappBox'>
                         <div className="customApplicatonBox"> 
-                                <div className="customAppIcon">
+                            <div className="customAppIcon">
                                 <img src={require('./../assets/gaming.png')} alt="gaming"/>
-                                </div>                  
+                            </div>                  
                             <div className="customAppText">
                                 <h3>Gaming Apps</h3>
                                 <p className="paragraph">You can rely on us for the most resilient, scalable, and high-performing fintech solutions.</p>

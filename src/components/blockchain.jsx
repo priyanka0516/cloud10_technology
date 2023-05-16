@@ -31,7 +31,7 @@ const Blockchain =()=>
             <div className='row'>
             <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
-                    <h3 className='mobile-text'>A Leading BlockChain<br/> Development  Company</h3>
+                    <h3 className='mobile-text'>A Leading<br/><strong>BlockChain</strong><br/> Development  Company</h3>
                     <p>We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.With our proven expertise in blockchain technologies, we build solutions that are highly secure, transparent, yet scalable.
                     </p>
                     {/* <div className='mt-3'>

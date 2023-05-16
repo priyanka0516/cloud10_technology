@@ -10,7 +10,7 @@ const Service =()=>
             <div className='row'>
             <div className="col-md-7 d-flex flex-column justify-content-center">
                 <div className='mobile-banner-left'>
-                    <h3 className='mobile-text'>Most Reliable Web application Developemnt Services</h3>
+                    <h3 className='mobile-text'>Most Reliable <br/><strong>Web application <br/></strong>Development Services</h3>
                     <p>We are team of developers.We are just helping startups and Enterprises in Embracing Technologies That bring the highest values.</p>
                 </div>
             </div>
@@ -23,6 +23,7 @@ const Service =()=>
         </div>
     </div>
     <div className='all-service'>
+    <div className="leverage_left"><img src={require('./../assets/leverage_left.png')}alt="Mobile-App-Development-Services"/></div>
       <div className='container'>
       <div className="row"><div className="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div className="section-heads"><h3 className="why-us-h3">Services</h3></div></div></div>
         <div className='row keyfeature-card-row'>

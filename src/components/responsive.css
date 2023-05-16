@@ -71,21 +71,21 @@
     position: relative;
 }
 .mobile-text {
-    color: #fff!important;
+    color: #000;
     line-height: 38px;
     font-size: 25px;
     font-weight: 700;
 }
 .mobile-banner-left p {
     padding: 20px 0px;
-    color: #fff!important;
+    color: #000;
     font-size: 13px;
 }
 footer .fcopy p {
     text-align: left;
-    margin: 0px !important;
+    margin: 0px ;
     padding: 0px;
-    width: 100% !important;
+    width: 100% ;
 }
 .footer .footer-item .footer-sosmed {
     margin: 5px auto 5px auto;
@@ -154,7 +154,7 @@ footer .fcopy p {
     #tech_logo {
         margin-left: 13px;}
         .mobile-text {
-            color: #fff!important;
+            color: #000;
             line-height: 50px;
             font-size: 35px;
             font-weight: 700;
